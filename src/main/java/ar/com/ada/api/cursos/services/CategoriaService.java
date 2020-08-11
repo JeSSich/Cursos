@@ -16,6 +16,7 @@ public class CategoriaService {
 
     public void crearCategoria(Categoria categoria) {
         repoCategoria.save(categoria);
+    
     }
 
     public Categoria crearCategoria(String nombre, String descripcion) {
